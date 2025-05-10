@@ -11,7 +11,7 @@
         <reevaluateOnChange>false</reevaluateOnChange>
     </fieldUpdates>
     <rules>
-        <fullName>TEst2</fullName>
+        <fullName>WorkFlow Rule Test</fullName>
         <actions>
             <name>Test</name>
             <type>Task</type>
