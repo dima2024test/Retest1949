@@ -4,7 +4,7 @@
         <name>Check_If_Users_Are_Connected_to_Slack</name>
         <label>Check If Users Are Connected to Slack</label>
         <locationX>182</locationX>
-        <locationY>2458</locationY>
+        <locationY>2650</locationY>
         <actionName>slackCheckUsersAreConnectedToSlack</actionName>
         <actionType>slackCheckUsersAreConnectedToSlack</actionType>
         <connector>
@@ -32,11 +32,11 @@
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </actionCalls>
     <actionCalls>
-        <description>Source:Account_Type:Technology_Partner,1350,798|Target:Increase_the_Count_by_2,1458,1062</description>
+        <description>Source:Account_Type:Technology_Partner,350,798|Target:Increase_the_Count_by_2,458,1062</description>
         <name>h_01b8d7b10f85897d48ce09062b16cfcf_PostPreLog</name>
         <label>Log After: Technology Partner, Before: Increase the Count by 2</label>
-        <locationX>798</locationX>
-        <locationY>1616</locationY>
+        <locationX>1062</locationX>
+        <locationY>1300</locationY>
         <actionName>TritonFlow</actionName>
         <actionType>apex</actionType>
         <connector>
@@ -52,13 +52,13 @@
         <inputParameters>
             <name>type</name>
             <value>
-                <stringValue>test test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>area</name>
             <value>
-                <stringValue>tset test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -82,7 +82,13 @@
         <inputParameters>
             <name>flowApiName</name>
             <value>
-                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-5</stringValue>
+                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-1</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>operation</name>
+            <value>
+                <stringValue>Decision</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -109,11 +115,11 @@
         </outputParameters>
     </actionCalls>
     <actionCalls>
-        <description>Source:Screen_1,1650,798|Target:Loop_through_Accounts,1242,182</description>
+        <description>Source:Screen_1,650,798|Target:Loop_through_Accounts,242,182</description>
         <name>h_06f6ae9de1eba7221406a3d44f1f91d9_PostPreLog</name>
         <label>Log After: Screen 1, Before: Loop through Accounts</label>
-        <locationX>798</locationX>
-        <locationY>1916</locationY>
+        <locationX>490</locationX>
+        <locationY>1900</locationY>
         <actionName>TritonFlow</actionName>
         <actionType>apex</actionType>
         <connector>
@@ -129,13 +135,13 @@
         <inputParameters>
             <name>type</name>
             <value>
-                <stringValue>test test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>area</name>
             <value>
-                <stringValue>tset test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -159,7 +165,13 @@
         <inputParameters>
             <name>flowApiName</name>
             <value>
-                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-5</stringValue>
+                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-1</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>operation</name>
+            <value>
+                <stringValue>Screen</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -186,11 +198,11 @@
         </outputParameters>
     </actionCalls>
     <actionCalls>
-        <description>Source:Has_Team_Member_To_Send_Notification:Has_Members,2166,182|Target:Send_Slack_nitification,2274,50</description>
+        <description>Source:Has_Team_Member_To_Send_Notification:Has_Members,1166,182|Target:Send_Slack_nitification,1274,50</description>
         <name>h_34eb74ac9113f2b46ae5eb34b159f32f_PostPreLog</name>
         <label>Log After: Has Members, Before: Send Slack notification</label>
-        <locationX>182</locationX>
-        <locationY>2432</locationY>
+        <locationX>50</locationX>
+        <locationY>3100</locationY>
         <actionName>TritonFlow</actionName>
         <actionType>apex</actionType>
         <connector>
@@ -206,13 +218,13 @@
         <inputParameters>
             <name>type</name>
             <value>
-                <stringValue>test test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>area</name>
             <value>
-                <stringValue>tset test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -236,7 +248,13 @@
         <inputParameters>
             <name>flowApiName</name>
             <value>
-                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-5</stringValue>
+                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-1</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>operation</name>
+            <value>
+                <stringValue>Decision</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -263,11 +281,11 @@
         </outputParameters>
     </actionCalls>
     <actionCalls>
-        <description>Source:Screen_3,1842,182|Target:Add_Recipient,1950,182</description>
+        <description>Source:Screen_3,842,182|Target:Add_Recipient,950,182</description>
         <name>h_4219ea428a412ff3463ea6722819fbbc_PostPreLog</name>
         <label>Log After: Screen 3, Before: Add Recipient</label>
         <locationX>182</locationX>
-        <locationY>2108</locationY>
+        <locationY>2200</locationY>
         <actionName>TritonFlow</actionName>
         <actionType>apex</actionType>
         <connector>
@@ -283,13 +301,13 @@
         <inputParameters>
             <name>type</name>
             <value>
-                <stringValue>test test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>area</name>
             <value>
-                <stringValue>tset test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -313,7 +331,13 @@
         <inputParameters>
             <name>flowApiName</name>
             <value>
-                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-5</stringValue>
+                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-1</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>operation</name>
+            <value>
+                <stringValue>Screen</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -340,11 +364,11 @@
         </outputParameters>
     </actionCalls>
     <actionCalls>
-        <description>Source:Add_Recipient,1950,182|Target:Check_If_Users_Are_Connected_to_Slack,2058,182</description>
+        <description>Source:Add_Recipient,950,182|Target:Check_If_Users_Are_Connected_to_Slack,1058,182</description>
         <name>h_46d58bf9faf3721819dcfd40499b2f98_PostPreLog</name>
         <label>Log After: Add Recipient, Before: Check If Users Are Connected to Slack</label>
         <locationX>182</locationX>
-        <locationY>2216</locationY>
+        <locationY>2500</locationY>
         <actionName>TritonFlow</actionName>
         <actionType>apex</actionType>
         <connector>
@@ -360,13 +384,13 @@
         <inputParameters>
             <name>type</name>
             <value>
-                <stringValue>test test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>area</name>
             <value>
-                <stringValue>tset test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -390,13 +414,19 @@
         <inputParameters>
             <name>flowApiName</name>
             <value>
-                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-5</stringValue>
+                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-1</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>operation</name>
+            <value>
+                <stringValue>Assignment</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>level</name>
             <value>
-                <stringValue>DEBUG</stringValue>
+                <stringValue>FINER</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -417,11 +447,11 @@
         </outputParameters>
     </actionCalls>
     <actionCalls>
-        <description>Source:Account_Type:Prospect,1350,798|Target:Copy_3_of_Increase_the_Count_by_3,1458,798</description>
+        <description>Source:Account_Type:Prospect,350,798|Target:Copy_3_of_Increase_the_Count_by_3,458,798</description>
         <name>h_5237c583ee6c27161684690357c42d1e_PostPreLog</name>
         <label>Log After: Prospect, Before: Increase the Count by 3</label>
         <locationX>798</locationX>
-        <locationY>1616</locationY>
+        <locationY>1300</locationY>
         <actionName>TritonFlow</actionName>
         <actionType>apex</actionType>
         <connector>
@@ -437,13 +467,13 @@
         <inputParameters>
             <name>type</name>
             <value>
-                <stringValue>test test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>area</name>
             <value>
-                <stringValue>tset test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -467,7 +497,13 @@
         <inputParameters>
             <name>flowApiName</name>
             <value>
-                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-5</stringValue>
+                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-1</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>operation</name>
+            <value>
+                <stringValue>Decision</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -494,11 +530,11 @@
         </outputParameters>
     </actionCalls>
     <actionCalls>
-        <description>Source:Start,0,56|Target:Get_Accounts,1134,182</description>
+        <description>Source:Start,0,56|Target:Get_Accounts,134,182</description>
         <name>h_5c3ef1c6b6623970c82df3da26d9bd41_PostPreLog</name>
         <label>Log After: Start, Before: Get Accounts</label>
-        <locationX>56</locationX>
-        <locationY>266</locationY>
+        <locationX>119</locationX>
+        <locationY>400</locationY>
         <actionName>TritonFlow</actionName>
         <actionType>apex</actionType>
         <connector>
@@ -514,13 +550,13 @@
         <inputParameters>
             <name>type</name>
             <value>
-                <stringValue>test test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>area</name>
             <value>
-                <stringValue>tset test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -544,13 +580,19 @@
         <inputParameters>
             <name>flowApiName</name>
             <value>
-                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-5</stringValue>
+                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-1</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>operation</name>
+            <value>
+                <stringValue>Start</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>level</name>
             <value>
-                <stringValue>DEBUG</stringValue>
+                <stringValue>INFO</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -571,11 +613,11 @@
         </outputParameters>
     </actionCalls>
     <actionCalls>
-        <description>Source:Increase_the_Count_by_5,1458,270|Target:Screen_1,1650,798</description>
+        <description>Source:Increase_the_Count_by_5,458,270|Target:Screen_1,650,798</description>
         <name>h_76323541c3c91c4936aa56b15057dbeb_PostPreLog</name>
         <label>Log After: Increase the Count by 5, Before: Screen 1</label>
-        <locationX>270</locationX>
-        <locationY>1724</locationY>
+        <locationX>534</locationX>
+        <locationY>1600</locationY>
         <actionName>TritonFlow</actionName>
         <actionType>apex</actionType>
         <connector>
@@ -591,13 +633,13 @@
         <inputParameters>
             <name>type</name>
             <value>
-                <stringValue>test test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>area</name>
             <value>
-                <stringValue>tset test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -621,13 +663,19 @@
         <inputParameters>
             <name>flowApiName</name>
             <value>
-                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-5</stringValue>
+                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-1</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>operation</name>
+            <value>
+                <stringValue>Assignment</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>level</name>
             <value>
-                <stringValue>DEBUG</stringValue>
+                <stringValue>FINER</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -648,11 +696,11 @@
         </outputParameters>
     </actionCalls>
     <actionCalls>
-        <description>Source:Increase_the_Count_by_1,1458,1326|Target:Screen_1,1650,798</description>
+        <description>Source:Increase_the_Count_by_1,458,1326|Target:Screen_1,650,798</description>
         <name>h_7d8142f1315f22ed82c56de94526954d_PostPreLog</name>
         <label>Log After: Increase the Count by 1, Before: Screen 1</label>
-        <locationX>1326</locationX>
-        <locationY>1724</locationY>
+        <locationX>1062</locationX>
+        <locationY>1600</locationY>
         <actionName>TritonFlow</actionName>
         <actionType>apex</actionType>
         <connector>
@@ -668,13 +716,13 @@
         <inputParameters>
             <name>type</name>
             <value>
-                <stringValue>test test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>area</name>
             <value>
-                <stringValue>tset test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -698,13 +746,19 @@
         <inputParameters>
             <name>flowApiName</name>
             <value>
-                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-5</stringValue>
+                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-1</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>operation</name>
+            <value>
+                <stringValue>Assignment</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>level</name>
             <value>
-                <stringValue>DEBUG</stringValue>
+                <stringValue>FINER</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -725,11 +779,11 @@
         </outputParameters>
     </actionCalls>
     <actionCalls>
-        <description>Source:Copy_2_of_Increase_the_Count_by_4,1458,534|Target:Screen_1,1650,798</description>
+        <description>Source:Copy_2_of_Increase_the_Count_by_4,458,534|Target:Screen_1,650,798</description>
         <name>h_85b4c1a21a6f04098a0124434cdb57e8_PostPreLog</name>
         <label>Log After: Increase the Count by 4, Before: Screen 1</label>
-        <locationX>534</locationX>
-        <locationY>1724</locationY>
+        <locationX>666</locationX>
+        <locationY>1600</locationY>
         <actionName>TritonFlow</actionName>
         <actionType>apex</actionType>
         <connector>
@@ -745,13 +799,13 @@
         <inputParameters>
             <name>type</name>
             <value>
-                <stringValue>test test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>area</name>
             <value>
-                <stringValue>tset test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -775,13 +829,19 @@
         <inputParameters>
             <name>flowApiName</name>
             <value>
-                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-5</stringValue>
+                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-1</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>operation</name>
+            <value>
+                <stringValue>Assignment</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>level</name>
             <value>
-                <stringValue>DEBUG</stringValue>
+                <stringValue>FINER</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -802,11 +862,11 @@
         </outputParameters>
     </actionCalls>
     <actionCalls>
-        <description>Source:Loop_through_Accounts,1242,182|Target:Account_Type,1350,798</description>
+        <description>Source:Loop_through_Accounts,242,182|Target:Account_Type,350,798</description>
         <name>h_969e436209655dc8c143f060da0c724c_PostPreLog</name>
         <label>Log After: Loop through Accounts, Before: Account Type</label>
-        <locationX>182</locationX>
-        <locationY>1508</locationY>
+        <locationX>490</locationX>
+        <locationY>1000</locationY>
         <actionName>TritonFlow</actionName>
         <actionType>apex</actionType>
         <connector>
@@ -822,13 +882,13 @@
         <inputParameters>
             <name>type</name>
             <value>
-                <stringValue>test test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>area</name>
             <value>
-                <stringValue>tset test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -852,13 +912,19 @@
         <inputParameters>
             <name>flowApiName</name>
             <value>
-                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-5</stringValue>
+                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-1</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>operation</name>
+            <value>
+                <stringValue>Loop</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>level</name>
             <value>
-                <stringValue>DEBUG</stringValue>
+                <stringValue>FINER</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -879,11 +945,11 @@
         </outputParameters>
     </actionCalls>
     <actionCalls>
-        <description>Source:Send_Slack_nitification,2274,50|Target:Create_Opp,2382,50</description>
+        <description>Source:Send_Slack_nitification,1274,50|Target:Create_Opp,1382,50</description>
         <name>h_96a23c69e0fd7b33bea925651a50ead4_PostPreLog</name>
         <label>Log After: Send Slack notification, Before: Create Opp</label>
         <locationX>50</locationX>
-        <locationY>2540</locationY>
+        <locationY>3400</locationY>
         <actionName>TritonFlow</actionName>
         <actionType>apex</actionType>
         <connector>
@@ -899,13 +965,13 @@
         <inputParameters>
             <name>type</name>
             <value>
-                <stringValue>test test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>area</name>
             <value>
-                <stringValue>tset test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -929,7 +995,13 @@
         <inputParameters>
             <name>flowApiName</name>
             <value>
-                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-5</stringValue>
+                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-1</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>operation</name>
+            <value>
+                <stringValue>Action</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -956,11 +1028,11 @@
         </outputParameters>
     </actionCalls>
     <actionCalls>
-        <description>Source:Account_Type:Customer_Direct,1350,798|Target:Copy_2_of_Increase_the_Count_by_4,1458,534</description>
+        <description>Source:Account_Type:Customer_Direct,350,798|Target:Copy_2_of_Increase_the_Count_by_4,458,534</description>
         <name>h_a0cd4e8c2500cc93a946597bcafbb150_PostPreLog</name>
         <label>Log After: Customer - Direct, Before: Increase the Count by 4</label>
-        <locationX>798</locationX>
-        <locationY>1616</locationY>
+        <locationX>534</locationX>
+        <locationY>1300</locationY>
         <actionName>TritonFlow</actionName>
         <actionType>apex</actionType>
         <connector>
@@ -976,13 +1048,13 @@
         <inputParameters>
             <name>type</name>
             <value>
-                <stringValue>test test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>area</name>
             <value>
-                <stringValue>tset test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -1006,7 +1078,13 @@
         <inputParameters>
             <name>flowApiName</name>
             <value>
-                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-5</stringValue>
+                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-1</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>operation</name>
+            <value>
+                <stringValue>Decision</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -1033,11 +1111,11 @@
         </outputParameters>
     </actionCalls>
     <actionCalls>
-        <description>Source:Loop_through_Accounts.NOMORE,1242,182|Target:Screen_3,1842,182</description>
+        <description>Source:Loop_through_Accounts.NOMORE,242,182|Target:Screen_3,842,182</description>
         <name>h_a2efccd3f79e0e9e119f2f4e91f0a2f8_PostPreLog</name>
         <label>Log After: Loop through Accounts, Before: Screen 3</label>
         <locationX>182</locationX>
-        <locationY>1508</locationY>
+        <locationY>1000</locationY>
         <actionName>TritonFlow</actionName>
         <actionType>apex</actionType>
         <connector>
@@ -1053,13 +1131,13 @@
         <inputParameters>
             <name>type</name>
             <value>
-                <stringValue>test test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>area</name>
             <value>
-                <stringValue>tset test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -1083,13 +1161,19 @@
         <inputParameters>
             <name>flowApiName</name>
             <value>
-                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-5</stringValue>
+                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-1</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>operation</name>
+            <value>
+                <stringValue>Loop</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>level</name>
             <value>
-                <stringValue>DEBUG</stringValue>
+                <stringValue>FINER</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -1110,11 +1194,11 @@
         </outputParameters>
     </actionCalls>
     <actionCalls>
-        <description>Source:Copy_3_of_Increase_the_Count_by_3,1458,798|Target:Screen_1,1650,798</description>
+        <description>Source:Copy_3_of_Increase_the_Count_by_3,458,798|Target:Screen_1,650,798</description>
         <name>h_b619bddcd1b579947cfa1f6c80d55289_PostPreLog</name>
         <label>Log After: Increase the Count by 3, Before: Screen 1</label>
         <locationX>798</locationX>
-        <locationY>1724</locationY>
+        <locationY>1600</locationY>
         <actionName>TritonFlow</actionName>
         <actionType>apex</actionType>
         <connector>
@@ -1130,13 +1214,13 @@
         <inputParameters>
             <name>type</name>
             <value>
-                <stringValue>test test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>area</name>
             <value>
-                <stringValue>tset test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -1160,13 +1244,19 @@
         <inputParameters>
             <name>flowApiName</name>
             <value>
-                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-5</stringValue>
+                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-1</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>operation</name>
+            <value>
+                <stringValue>Assignment</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>level</name>
             <value>
-                <stringValue>DEBUG</stringValue>
+                <stringValue>FINER</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -1187,11 +1277,11 @@
         </outputParameters>
     </actionCalls>
     <actionCalls>
-        <description>Source:Account_Type:Customer_Channel,1350,798|Target:Increase_the_Count_by_5,1458,270</description>
+        <description>Source:Account_Type:Customer_Channel,350,798|Target:Increase_the_Count_by_5,458,270</description>
         <name>h_c2c451370b0479646b2d03654f4089ef_PostPreLog</name>
         <label>Log After: Customer - Channel, Before: Increase the Count by 5</label>
-        <locationX>798</locationX>
-        <locationY>1616</locationY>
+        <locationX>270</locationX>
+        <locationY>1300</locationY>
         <actionName>TritonFlow</actionName>
         <actionType>apex</actionType>
         <connector>
@@ -1207,13 +1297,13 @@
         <inputParameters>
             <name>type</name>
             <value>
-                <stringValue>test test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>area</name>
             <value>
-                <stringValue>tset test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -1237,7 +1327,13 @@
         <inputParameters>
             <name>flowApiName</name>
             <value>
-                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-5</stringValue>
+                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-1</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>operation</name>
+            <value>
+                <stringValue>Decision</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -1264,11 +1360,11 @@
         </outputParameters>
     </actionCalls>
     <actionCalls>
-        <description>Source:Check_If_Users_Are_Connected_to_Slack,2058,182|Target:Has_Team_Member_To_Send_Notification,2166,182</description>
+        <description>Source:Check_If_Users_Are_Connected_to_Slack,1058,182|Target:Has_Team_Member_To_Send_Notification,1166,182</description>
         <name>h_dccb463114fe65582b42b5d811153813_PostPreLog</name>
         <label>Log After: Check If Users Are Connect..., Before: Has Team Member To Send Not...</label>
         <locationX>182</locationX>
-        <locationY>2324</locationY>
+        <locationY>2800</locationY>
         <actionName>TritonFlow</actionName>
         <actionType>apex</actionType>
         <connector>
@@ -1284,13 +1380,13 @@
         <inputParameters>
             <name>type</name>
             <value>
-                <stringValue>test test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>area</name>
             <value>
-                <stringValue>tset test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -1314,7 +1410,13 @@
         <inputParameters>
             <name>flowApiName</name>
             <value>
-                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-5</stringValue>
+                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-1</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>operation</name>
+            <value>
+                <stringValue>Action</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -1341,11 +1443,11 @@
         </outputParameters>
     </actionCalls>
     <actionCalls>
-        <description>Source:Increase_the_Count_by_2,1458,1062|Target:Screen_1,1650,798</description>
+        <description>Source:Increase_the_Count_by_2,458,1062|Target:Screen_1,650,798</description>
         <name>h_df0ee78a5ac4b591530877ac9c14ac13_PostPreLog</name>
         <label>Log After: Increase the Count by 2, Before: Screen 1</label>
-        <locationX>1062</locationX>
-        <locationY>1724</locationY>
+        <locationX>930</locationX>
+        <locationY>1600</locationY>
         <actionName>TritonFlow</actionName>
         <actionType>apex</actionType>
         <connector>
@@ -1361,13 +1463,13 @@
         <inputParameters>
             <name>type</name>
             <value>
-                <stringValue>test test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>area</name>
             <value>
-                <stringValue>tset test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -1391,13 +1493,19 @@
         <inputParameters>
             <name>flowApiName</name>
             <value>
-                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-5</stringValue>
+                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-1</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>operation</name>
+            <value>
+                <stringValue>Assignment</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>level</name>
             <value>
-                <stringValue>DEBUG</stringValue>
+                <stringValue>FINER</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -1418,11 +1526,11 @@
         </outputParameters>
     </actionCalls>
     <actionCalls>
-        <description>Source:Account_Type,1350,798|Target:Increase_the_Count_by_1,1458,1326</description>
+        <description>Source:Account_Type,350,798|Target:Increase_the_Count_by_1,458,1326</description>
         <name>h_e21caa1c982a3084305b28aa8bca0618_PostPreLog</name>
         <label>Log After: Account Type, Before: Increase the Count by 1</label>
-        <locationX>798</locationX>
-        <locationY>1616</locationY>
+        <locationX>1062</locationX>
+        <locationY>1300</locationY>
         <actionName>TritonFlow</actionName>
         <actionType>apex</actionType>
         <connector>
@@ -1438,13 +1546,13 @@
         <inputParameters>
             <name>type</name>
             <value>
-                <stringValue>test test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>area</name>
             <value>
-                <stringValue>tset test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -1468,7 +1576,13 @@
         <inputParameters>
             <name>flowApiName</name>
             <value>
-                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-5</stringValue>
+                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-1</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>operation</name>
+            <value>
+                <stringValue>Decision</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -1495,11 +1609,11 @@
         </outputParameters>
     </actionCalls>
     <actionCalls>
-        <description>Source:Create_Opp,2382,50|Target:null,0,0</description>
+        <description>Source:Create_Opp,1382,50|Target:null,0,0</description>
         <name>h_ec208eb9e0db86c502383a5be1b43a7b_PostLog</name>
         <label>Log After: Create Opp</label>
         <locationX>50</locationX>
-        <locationY>2648</locationY>
+        <locationY>3700</locationY>
         <actionName>TritonFlow</actionName>
         <actionType>apex</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
@@ -1512,13 +1626,13 @@
         <inputParameters>
             <name>type</name>
             <value>
-                <stringValue>test test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>area</name>
             <value>
-                <stringValue>tset test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -1542,7 +1656,13 @@
         <inputParameters>
             <name>flowApiName</name>
             <value>
-                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-5</stringValue>
+                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-1</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>operation</name>
+            <value>
+                <stringValue>Record Create</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -1569,11 +1689,11 @@
         </outputParameters>
     </actionCalls>
     <actionCalls>
-        <description>Source:Get_Accounts,1134,182|Target:Loop_through_Accounts,1242,182</description>
+        <description>Source:Get_Accounts,134,182|Target:Loop_through_Accounts,242,182</description>
         <name>h_f273d41278e39a52c01ba853cf99950f_PostPreLog</name>
         <label>Log After: Get Accounts, Before: Loop through Accounts</label>
         <locationX>182</locationX>
-        <locationY>1400</locationY>
+        <locationY>700</locationY>
         <actionName>TritonFlow</actionName>
         <actionType>apex</actionType>
         <connector>
@@ -1589,13 +1709,13 @@
         <inputParameters>
             <name>type</name>
             <value>
-                <stringValue>test test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>area</name>
             <value>
-                <stringValue>tset test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -1619,7 +1739,13 @@
         <inputParameters>
             <name>flowApiName</name>
             <value>
-                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-5</stringValue>
+                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-1</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>operation</name>
+            <value>
+                <stringValue>Record Lookup</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -1646,11 +1772,11 @@
         </outputParameters>
     </actionCalls>
     <actionCalls>
-        <description>Source:Has_Team_Member_To_Send_Notification,2166,182|Target:null,0,0</description>
+        <description>Source:Has_Team_Member_To_Send_Notification,1166,182|Target:null,0,0</description>
         <name>h_f8402aef03a20ac1abef87178c197077_PostLog</name>
         <label>Log After: Has Team Member To Send Notification</label>
         <locationX>182</locationX>
-        <locationY>2432</locationY>
+        <locationY>3100</locationY>
         <actionName>TritonFlow</actionName>
         <actionType>apex</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
@@ -1663,13 +1789,13 @@
         <inputParameters>
             <name>type</name>
             <value>
-                <stringValue>test test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>area</name>
             <value>
-                <stringValue>tset test</stringValue>
+                <stringValue>test</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -1693,7 +1819,13 @@
         <inputParameters>
             <name>flowApiName</name>
             <value>
-                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-5</stringValue>
+                <stringValue>testnewmp__DY_Screen_flow_Loop_Promer-1</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>operation</name>
+            <value>
+                <stringValue>Decision</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -1723,7 +1855,7 @@
         <name>Send_Slack_nitification</name>
         <label>Send Slack notification</label>
         <locationX>50</locationX>
-        <locationY>2674</locationY>
+        <locationY>3250</locationY>
         <actionName>slackPostMessage</actionName>
         <actionType>slackPostMessage</actionType>
         <connector>
@@ -1777,7 +1909,7 @@
         <name>Copy_2_of_Increase_the_Count_by_4</name>
         <label>Increase the Count by 4</label>
         <locationX>534</locationX>
-        <locationY>1858</locationY>
+        <locationY>1450</locationY>
         <assignmentItems>
             <assignToReference>Count</assignToReference>
             <operator>Add</operator>
@@ -1793,7 +1925,7 @@
         <name>Copy_3_of_Increase_the_Count_by_3</name>
         <label>Increase the Count by 3</label>
         <locationX>798</locationX>
-        <locationY>1858</locationY>
+        <locationY>1450</locationY>
         <assignmentItems>
             <assignToReference>Count</assignToReference>
             <operator>Add</operator>
@@ -1809,7 +1941,7 @@
         <name>Increase_the_Count_by_1</name>
         <label>Increase the Count by 1</label>
         <locationX>1326</locationX>
-        <locationY>1858</locationY>
+        <locationY>1450</locationY>
         <assignmentItems>
             <assignToReference>Count</assignToReference>
             <operator>Add</operator>
@@ -1825,7 +1957,7 @@
         <name>Increase_the_Count_by_2</name>
         <label>Increase the Count by 2</label>
         <locationX>1062</locationX>
-        <locationY>1858</locationY>
+        <locationY>1450</locationY>
         <assignmentItems>
             <assignToReference>Count</assignToReference>
             <operator>Add</operator>
@@ -1841,7 +1973,7 @@
         <name>Increase_the_Count_by_5</name>
         <label>Increase the Count by 5</label>
         <locationX>270</locationX>
-        <locationY>1858</locationY>
+        <locationY>1450</locationY>
         <assignmentItems>
             <assignToReference>Count</assignToReference>
             <operator>Add</operator>
@@ -1857,7 +1989,7 @@
         <name>Account_Type</name>
         <label>Account Type</label>
         <locationX>798</locationX>
-        <locationY>1750</locationY>
+        <locationY>1150</locationY>
         <defaultConnector>
             <targetReference>h_e21caa1c982a3084305b28aa8bca0618_PostPreLog</targetReference>
         </defaultConnector>
@@ -1927,7 +2059,7 @@
         <name>Has_Team_Member_To_Send_Notification</name>
         <label>Has Team Member To Send Notification</label>
         <locationX>182</locationX>
-        <locationY>2566</locationY>
+        <locationY>2950</locationY>
         <defaultConnector>
             <targetReference>h_f8402aef03a20ac1abef87178c197077_PostLog</targetReference>
         </defaultConnector>
@@ -1954,7 +2086,7 @@
         <name>Loop_through_Accounts</name>
         <label>Loop through Accounts</label>
         <locationX>182</locationX>
-        <locationY>1642</locationY>
+        <locationY>850</locationY>
         <collectionReference>Get_Accounts</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
@@ -1987,7 +2119,7 @@
         <name>Create_Opp</name>
         <label>Create Opp</label>
         <locationX>50</locationX>
-        <locationY>2782</locationY>
+        <locationY>3550</locationY>
         <connector>
             <targetReference>h_ec208eb9e0db86c502383a5be1b43a7b_PostLog</targetReference>
         </connector>
@@ -2007,7 +2139,7 @@
         <name>Get_Accounts</name>
         <label>Get Accounts</label>
         <locationX>182</locationX>
-        <locationY>1534</locationY>
+        <locationY>550</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>h_f273d41278e39a52c01ba853cf99950f_PostPreLog</targetReference>
@@ -2020,7 +2152,7 @@
         <name>Screen_1</name>
         <label>Screen 1</label>
         <locationX>798</locationX>
-        <locationY>2050</locationY>
+        <locationY>1750</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -2039,7 +2171,7 @@
         <name>Screen_3</name>
         <label>Screen 3</label>
         <locationX>182</locationX>
-        <locationY>2242</locationY>
+        <locationY>2050</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -2068,9 +2200,17 @@
         <isViewedAsPlainText>true</isViewedAsPlainText>
         <text>&lt;p&gt;
 &lt;span style=&quot;font-weight:bold;&quot;&gt;(APEX): &lt;/span&gt;Send_Slack_nitification&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Inputs:&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;slackAppIdForToken = A03269G3DNE&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;slackWorkspaceIdForToken = T07CM66NMRQ&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;slackConversationId = C07D9VC9FGQ&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;slackMessage = Test Slack Message&lt;/span&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Outputs:&lt;/span&gt;&lt;br&gt;
 &lt;/p&gt;
 &lt;p&gt;
 &lt;span style=&quot;font-weight:bold;&quot;&gt;(APEX): &lt;/span&gt;h_96a23c69e0fd7b33bea925651a50ead4_PostPreLog&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Inputs:&lt;/span&gt;&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Outputs:&lt;/span&gt;&lt;br&gt;
 &lt;/p&gt;</text>
     </textTemplates>
     <textTemplates>
@@ -2079,14 +2219,15 @@
         <isViewedAsPlainText>true</isViewedAsPlainText>
         <text>&lt;p&gt;
 &lt;span style=&quot;font-weight:bold;&quot;&gt;SCREEN: &lt;/span&gt;Screen 3&lt;br&gt;
-&lt;span style=&quot;font-weight:bold;&quot;&gt;DisplayTextTwo: &lt;/span&gt;DisplayTextTwo&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;DisplayTextTwo: &lt;/span&gt;&lt;p&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;You have now iterated through loop collection!&lt;/span&gt;&lt;/p&gt;&lt;br&gt;
 &lt;span&gt;Type: DisplayText&lt;/span&gt;&lt;br&gt;
-&lt;span&gt;Required: null&lt;/span&gt;&lt;br&gt;
-&lt;span&gt;Value at runtime: {!DisplayTextTwo}&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;Text: &lt;p&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;You have now iterated through loop collection!&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;&lt;br&gt;
 
 &lt;/p&gt;
 &lt;p&gt;
 &lt;span style=&quot;font-weight:bold;&quot;&gt;(APEX): &lt;/span&gt;h_4219ea428a412ff3463ea6722819fbbc_PostPreLog&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Inputs:&lt;/span&gt;&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Outputs:&lt;/span&gt;&lt;br&gt;
 &lt;/p&gt;</text>
     </textTemplates>
     <textTemplates>
@@ -2101,6 +2242,8 @@
 &lt;/p&gt;
 &lt;p&gt;
 &lt;span style=&quot;font-weight:bold;&quot;&gt;(APEX): &lt;/span&gt;h_b619bddcd1b579947cfa1f6c80d55289_PostPreLog&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Inputs:&lt;/span&gt;&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Outputs:&lt;/span&gt;&lt;br&gt;
 &lt;/p&gt;</text>
     </textTemplates>
     <textTemplates>
@@ -2115,6 +2258,8 @@
 &lt;/p&gt;
 &lt;p&gt;
 &lt;span style=&quot;font-weight:bold;&quot;&gt;(APEX): &lt;/span&gt;h_76323541c3c91c4936aa56b15057dbeb_PostPreLog&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Inputs:&lt;/span&gt;&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Outputs:&lt;/span&gt;&lt;br&gt;
 &lt;/p&gt;</text>
     </textTemplates>
     <textTemplates>
@@ -2123,14 +2268,15 @@
         <isViewedAsPlainText>true</isViewedAsPlainText>
         <text>&lt;p&gt;
 &lt;span style=&quot;font-weight:bold;&quot;&gt;SCREEN: &lt;/span&gt;Screen 1&lt;br&gt;
-&lt;span style=&quot;font-weight:bold;&quot;&gt;Display_Text_1: &lt;/span&gt;Display_Text_1&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Display_Text_1: &lt;/span&gt;&lt;p&gt;The current Account Name is: &lt;strong&gt;{!Loop_through_Accounts.Name}&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;And the current score is:&lt;/p&gt;&lt;p&gt;&lt;strong&gt;{!Count}&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;
 &lt;span&gt;Type: DisplayText&lt;/span&gt;&lt;br&gt;
-&lt;span&gt;Required: null&lt;/span&gt;&lt;br&gt;
-&lt;span&gt;Value at runtime: {!Display_Text_1}&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;Text: &lt;p&gt;The current Account Name is: &lt;strong&gt;{!Loop_through_Accounts.Name}&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;And the current score is:&lt;/p&gt;&lt;p&gt;&lt;strong&gt;{!Count}&lt;/strong&gt;&lt;/p&gt;&lt;/span&gt;&lt;br&gt;
 
 &lt;/p&gt;
 &lt;p&gt;
 &lt;span style=&quot;font-weight:bold;&quot;&gt;(APEX): &lt;/span&gt;h_06f6ae9de1eba7221406a3d44f1f91d9_PostPreLog&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Inputs:&lt;/span&gt;&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Outputs:&lt;/span&gt;&lt;br&gt;
 &lt;/p&gt;</text>
     </textTemplates>
     <textTemplates>
@@ -2141,27 +2287,29 @@
 &lt;span style=&quot;font-weight:bold;&quot;&gt;DECISION: &lt;/span&gt;Account Type&lt;br&gt;
 &lt;span&gt;Skipped this outcome because its conditions weren&apos;t met: Customer_Direct&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;Outcome conditions: &lt;/span&gt;&lt;br&gt;
-&lt;span&gt;\{!Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Customer - Direct&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;{! Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Customer - Direct&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;All conditions must be true (and)&lt;/span&gt;&lt;br&gt;
 &lt;br/&gt;
 &lt;span&gt;Skipped this outcome because its conditions weren&apos;t met: Prospect&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;Outcome conditions: &lt;/span&gt;&lt;br&gt;
-&lt;span&gt;\{!Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Prospect&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;{! Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Prospect&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;All conditions must be true (and)&lt;/span&gt;&lt;br&gt;
 &lt;br/&gt;
 &lt;span&gt;Skipped this outcome because its conditions weren&apos;t met: Technology_Partner&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;Outcome conditions: &lt;/span&gt;&lt;br&gt;
-&lt;span&gt;\{!Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Technology Partner&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;{! Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Technology Partner&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;All conditions must be true (and)&lt;/span&gt;&lt;br&gt;
 &lt;br/&gt;
 &lt;span&gt;Outcome executed: Customer_Channel&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;Outcome conditions: &lt;/span&gt;&lt;br&gt;
-&lt;span&gt;\{!Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Customer - Channel&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;{! Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Customer - Channel&lt;/span&gt;&lt;br&gt;
 
 &lt;span&gt;All conditions must be true (and)&lt;/span&gt;&lt;br&gt;
 &lt;/p&gt;
 &lt;p&gt;
 &lt;span style=&quot;font-weight:bold;&quot;&gt;(APEX): &lt;/span&gt;h_c2c451370b0479646b2d03654f4089ef_PostPreLog&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Inputs:&lt;/span&gt;&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Outputs:&lt;/span&gt;&lt;br&gt;
 &lt;/p&gt;</text>
     </textTemplates>
     <textTemplates>
@@ -2176,6 +2324,8 @@
 &lt;/p&gt;
 &lt;p&gt;
 &lt;span style=&quot;font-weight:bold;&quot;&gt;(APEX): &lt;/span&gt;h_7d8142f1315f22ed82c56de94526954d_PostPreLog&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Inputs:&lt;/span&gt;&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Outputs:&lt;/span&gt;&lt;br&gt;
 &lt;/p&gt;</text>
     </textTemplates>
     <textTemplates>
@@ -2186,27 +2336,29 @@
 &lt;span style=&quot;font-weight:bold;&quot;&gt;DECISION: &lt;/span&gt;Account Type&lt;br&gt;
 &lt;span&gt;Skipped this outcome because its conditions weren&apos;t met: Customer_Channel&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;Outcome conditions: &lt;/span&gt;&lt;br&gt;
-&lt;span&gt;\{!Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Customer - Channel&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;{! Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Customer - Channel&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;All conditions must be true (and)&lt;/span&gt;&lt;br&gt;
 &lt;br/&gt;
 &lt;span&gt;Skipped this outcome because its conditions weren&apos;t met: Prospect&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;Outcome conditions: &lt;/span&gt;&lt;br&gt;
-&lt;span&gt;\{!Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Prospect&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;{! Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Prospect&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;All conditions must be true (and)&lt;/span&gt;&lt;br&gt;
 &lt;br/&gt;
 &lt;span&gt;Skipped this outcome because its conditions weren&apos;t met: Technology_Partner&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;Outcome conditions: &lt;/span&gt;&lt;br&gt;
-&lt;span&gt;\{!Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Technology Partner&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;{! Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Technology Partner&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;All conditions must be true (and)&lt;/span&gt;&lt;br&gt;
 &lt;br/&gt;
 &lt;span&gt;Outcome executed: Customer_Direct&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;Outcome conditions: &lt;/span&gt;&lt;br&gt;
-&lt;span&gt;\{!Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Customer - Direct&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;{! Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Customer - Direct&lt;/span&gt;&lt;br&gt;
 
 &lt;span&gt;All conditions must be true (and)&lt;/span&gt;&lt;br&gt;
 &lt;/p&gt;
 &lt;p&gt;
 &lt;span style=&quot;font-weight:bold;&quot;&gt;(APEX): &lt;/span&gt;h_a0cd4e8c2500cc93a946597bcafbb150_PostPreLog&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Inputs:&lt;/span&gt;&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Outputs:&lt;/span&gt;&lt;br&gt;
 &lt;/p&gt;</text>
     </textTemplates>
     <textTemplates>
@@ -2220,10 +2372,12 @@
 &lt;span&gt;Name = null&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;StageName = null&lt;/span&gt;&lt;br&gt;
 &lt;span style=&quot;font-weight:bold;&quot;&gt;Result&lt;/span&gt;&lt;br&gt;
-&lt;span&gt;\{!Create_Opp} ({!Create_Opp})&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;Create_Opp ({!Create_Opp})&lt;/span&gt;&lt;br&gt;
 &lt;/p&gt;
 &lt;p&gt;
 &lt;span style=&quot;font-weight:bold;&quot;&gt;(APEX): &lt;/span&gt;h_ec208eb9e0db86c502383a5be1b43a7b_PostLog&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Inputs:&lt;/span&gt;&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Outputs:&lt;/span&gt;&lt;br&gt;
 &lt;/p&gt;</text>
     </textTemplates>
     <textTemplates>
@@ -2238,6 +2392,8 @@
 &lt;/p&gt;
 &lt;p&gt;
 &lt;span style=&quot;font-weight:bold;&quot;&gt;(APEX): &lt;/span&gt;h_85b4c1a21a6f04098a0124434cdb57e8_PostPreLog&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Inputs:&lt;/span&gt;&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Outputs:&lt;/span&gt;&lt;br&gt;
 &lt;/p&gt;</text>
     </textTemplates>
     <textTemplates>
@@ -2255,8 +2411,8 @@ span,a {
 &lt;span style=&quot;font-weight:bold;&quot;&gt;Flow Details&lt;/span&gt;&lt;br&gt;
 &lt;br&gt;&lt;span&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;Flow API Name: &lt;/span&gt;testnewmp__DY_Screen_flow_Loop_Promer&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;Type: &lt;/span&gt;Flow&lt;/span&gt;&lt;br&gt;
-&lt;span&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;Version: &lt;/span&gt;7&lt;/span&gt;&lt;br&gt;
-&lt;span&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;Status: &lt;/span&gt;Draft&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;Version: &lt;/span&gt;3&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;Status: &lt;/span&gt;Active&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;Org: &lt;/span&gt;{!$Organization.Id} ({!$Organization.Name})&lt;/span&gt;&lt;br&gt;
 &lt;/p&gt;
 &lt;br&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;Flow Interview Details&lt;/span&gt;&lt;br&gt;
@@ -2272,6 +2428,8 @@ span,a {
 &lt;/p&gt;
 &lt;p&gt;
 &lt;span style=&quot;font-weight:bold;&quot;&gt;(APEX): &lt;/span&gt;h_5c3ef1c6b6623970c82df3da26d9bd41_PostPreLog&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Inputs:&lt;/span&gt;&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Outputs:&lt;/span&gt;&lt;br&gt;
 &lt;/p&gt;</text>
     </textTemplates>
     <textTemplates>
@@ -2282,13 +2440,15 @@ span,a {
 &lt;span style=&quot;font-weight:bold;&quot;&gt;DECISION: &lt;/span&gt;Has Team Member To Send Notification&lt;br&gt;
 &lt;span&gt;Skipped this outcome because its conditions weren&apos;t met: Has_Members&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;Outcome conditions: &lt;/span&gt;&lt;br&gt;
-&lt;span&gt;\{!RecipientId} ({!RecipientId}) IsNull false&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;{! RecipientId} ({!RecipientId}) IsNull false&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;All conditions must be true (and)&lt;/span&gt;&lt;br&gt;
 &lt;br/&gt;
 &lt;span&gt;Default outcome executed.&lt;/span&gt;&lt;br&gt;
 &lt;/p&gt;
 &lt;p&gt;
 &lt;span style=&quot;font-weight:bold;&quot;&gt;(APEX): &lt;/span&gt;h_f8402aef03a20ac1abef87178c197077_PostLog&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Inputs:&lt;/span&gt;&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Outputs:&lt;/span&gt;&lt;br&gt;
 &lt;/p&gt;</text>
     </textTemplates>
     <textTemplates>
@@ -2299,27 +2459,29 @@ span,a {
 &lt;span style=&quot;font-weight:bold;&quot;&gt;DECISION: &lt;/span&gt;Account Type&lt;br&gt;
 &lt;span&gt;Skipped this outcome because its conditions weren&apos;t met: Customer_Channel&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;Outcome conditions: &lt;/span&gt;&lt;br&gt;
-&lt;span&gt;\{!Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Customer - Channel&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;{! Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Customer - Channel&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;All conditions must be true (and)&lt;/span&gt;&lt;br&gt;
 &lt;br/&gt;
 &lt;span&gt;Skipped this outcome because its conditions weren&apos;t met: Customer_Direct&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;Outcome conditions: &lt;/span&gt;&lt;br&gt;
-&lt;span&gt;\{!Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Customer - Direct&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;{! Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Customer - Direct&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;All conditions must be true (and)&lt;/span&gt;&lt;br&gt;
 &lt;br/&gt;
 &lt;span&gt;Skipped this outcome because its conditions weren&apos;t met: Prospect&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;Outcome conditions: &lt;/span&gt;&lt;br&gt;
-&lt;span&gt;\{!Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Prospect&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;{! Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Prospect&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;All conditions must be true (and)&lt;/span&gt;&lt;br&gt;
 &lt;br/&gt;
 &lt;span&gt;Outcome executed: Technology_Partner&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;Outcome conditions: &lt;/span&gt;&lt;br&gt;
-&lt;span&gt;\{!Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Technology Partner&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;{! Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Technology Partner&lt;/span&gt;&lt;br&gt;
 
 &lt;span&gt;All conditions must be true (and)&lt;/span&gt;&lt;br&gt;
 &lt;/p&gt;
 &lt;p&gt;
 &lt;span style=&quot;font-weight:bold;&quot;&gt;(APEX): &lt;/span&gt;h_01b8d7b10f85897d48ce09062b16cfcf_PostPreLog&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Inputs:&lt;/span&gt;&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Outputs:&lt;/span&gt;&lt;br&gt;
 &lt;/p&gt;</text>
     </textTemplates>
     <textTemplates>
@@ -2332,6 +2494,8 @@ span,a {
 &lt;/p&gt;
 &lt;p&gt;
 &lt;span style=&quot;font-weight:bold;&quot;&gt;(APEX): &lt;/span&gt;h_a2efccd3f79e0e9e119f2f4e91f0a2f8_PostPreLog&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Inputs:&lt;/span&gt;&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Outputs:&lt;/span&gt;&lt;br&gt;
 &lt;/p&gt;</text>
     </textTemplates>
     <textTemplates>
@@ -2342,28 +2506,30 @@ span,a {
 &lt;span style=&quot;font-weight:bold;&quot;&gt;DECISION: &lt;/span&gt;Account Type&lt;br&gt;
 &lt;span&gt;Skipped this outcome because its conditions weren&apos;t met: Customer_Channel&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;Outcome conditions: &lt;/span&gt;&lt;br&gt;
-&lt;span&gt;\{!Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Customer - Channel&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;{! Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Customer - Channel&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;All conditions must be true (and)&lt;/span&gt;&lt;br&gt;
 &lt;br/&gt;
 &lt;span&gt;Skipped this outcome because its conditions weren&apos;t met: Customer_Direct&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;Outcome conditions: &lt;/span&gt;&lt;br&gt;
-&lt;span&gt;\{!Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Customer - Direct&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;{! Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Customer - Direct&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;All conditions must be true (and)&lt;/span&gt;&lt;br&gt;
 &lt;br/&gt;
 &lt;span&gt;Skipped this outcome because its conditions weren&apos;t met: Prospect&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;Outcome conditions: &lt;/span&gt;&lt;br&gt;
-&lt;span&gt;\{!Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Prospect&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;{! Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Prospect&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;All conditions must be true (and)&lt;/span&gt;&lt;br&gt;
 &lt;br/&gt;
 &lt;span&gt;Skipped this outcome because its conditions weren&apos;t met: Technology_Partner&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;Outcome conditions: &lt;/span&gt;&lt;br&gt;
-&lt;span&gt;\{!Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Technology Partner&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;{! Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Technology Partner&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;All conditions must be true (and)&lt;/span&gt;&lt;br&gt;
 &lt;br/&gt;
 &lt;span&gt;Default outcome executed.&lt;/span&gt;&lt;br&gt;
 &lt;/p&gt;
 &lt;p&gt;
 &lt;span style=&quot;font-weight:bold;&quot;&gt;(APEX): &lt;/span&gt;h_e21caa1c982a3084305b28aa8bca0618_PostPreLog&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Inputs:&lt;/span&gt;&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Outputs:&lt;/span&gt;&lt;br&gt;
 &lt;/p&gt;</text>
     </textTemplates>
     <textTemplates>
@@ -2376,10 +2542,12 @@ span,a {
 
 &lt;span&gt;Store the values of these fields: &lt;/span&gt;&lt;br&gt;
 &lt;span style=&quot;font-weight:bold;&quot;&gt;Result&lt;/span&gt;&lt;br&gt;
-&lt;span&gt;\{!Get_Accounts} ({!Get_Accounts})&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;Get_Accounts ({!Get_Accounts})&lt;/span&gt;&lt;br&gt;
 &lt;/p&gt;
 &lt;p&gt;
 &lt;span style=&quot;font-weight:bold;&quot;&gt;(APEX): &lt;/span&gt;h_f273d41278e39a52c01ba853cf99950f_PostPreLog&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Inputs:&lt;/span&gt;&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Outputs:&lt;/span&gt;&lt;br&gt;
 &lt;/p&gt;</text>
     </textTemplates>
     <textTemplates>
@@ -2388,9 +2556,16 @@ span,a {
         <isViewedAsPlainText>true</isViewedAsPlainText>
         <text>&lt;p&gt;
 &lt;span style=&quot;font-weight:bold;&quot;&gt;(APEX): &lt;/span&gt;Check_If_Users_Are_Connected_to_Slack&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Inputs:&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;slackAppIdForToken = A03269G3DNE&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;slackWorkspaceIdForToken = T07CM66NMRQ&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;userIdsToCheck = RecipientId&lt;/span&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Outputs:&lt;/span&gt;&lt;br&gt;
 &lt;/p&gt;
 &lt;p&gt;
 &lt;span style=&quot;font-weight:bold;&quot;&gt;(APEX): &lt;/span&gt;h_dccb463114fe65582b42b5d811153813_PostPreLog&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Inputs:&lt;/span&gt;&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Outputs:&lt;/span&gt;&lt;br&gt;
 &lt;/p&gt;</text>
     </textTemplates>
     <textTemplates>
@@ -2405,6 +2580,8 @@ span,a {
 &lt;/p&gt;
 &lt;p&gt;
 &lt;span style=&quot;font-weight:bold;&quot;&gt;(APEX): &lt;/span&gt;h_46d58bf9faf3721819dcfd40499b2f98_PostPreLog&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Inputs:&lt;/span&gt;&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Outputs:&lt;/span&gt;&lt;br&gt;
 &lt;/p&gt;</text>
     </textTemplates>
     <textTemplates>
@@ -2415,12 +2592,14 @@ span,a {
 &lt;span style=&quot;font-weight:bold;&quot;&gt;DECISION: &lt;/span&gt;Has Team Member To Send Notification&lt;br&gt;
 &lt;span&gt;Outcome executed: Has_Members&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;Outcome conditions: &lt;/span&gt;&lt;br&gt;
-&lt;span&gt;\{!RecipientId} ({!RecipientId}) IsNull false&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;{! RecipientId} ({!RecipientId}) IsNull false&lt;/span&gt;&lt;br&gt;
 
 &lt;span&gt;All conditions must be true (and)&lt;/span&gt;&lt;br&gt;
 &lt;/p&gt;
 &lt;p&gt;
 &lt;span style=&quot;font-weight:bold;&quot;&gt;(APEX): &lt;/span&gt;h_34eb74ac9113f2b46ae5eb34b159f32f_PostPreLog&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Inputs:&lt;/span&gt;&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Outputs:&lt;/span&gt;&lt;br&gt;
 &lt;/p&gt;</text>
     </textTemplates>
     <textTemplates>
@@ -2434,6 +2613,8 @@ span,a {
 &lt;/p&gt;
 &lt;p&gt;
 &lt;span style=&quot;font-weight:bold;&quot;&gt;(APEX): &lt;/span&gt;h_969e436209655dc8c143f060da0c724c_PostPreLog&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Inputs:&lt;/span&gt;&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Outputs:&lt;/span&gt;&lt;br&gt;
 &lt;/p&gt;</text>
     </textTemplates>
     <textTemplates>
@@ -2448,6 +2629,8 @@ span,a {
 &lt;/p&gt;
 &lt;p&gt;
 &lt;span style=&quot;font-weight:bold;&quot;&gt;(APEX): &lt;/span&gt;h_df0ee78a5ac4b591530877ac9c14ac13_PostPreLog&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Inputs:&lt;/span&gt;&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Outputs:&lt;/span&gt;&lt;br&gt;
 &lt;/p&gt;</text>
     </textTemplates>
     <textTemplates>
@@ -2458,27 +2641,29 @@ span,a {
 &lt;span style=&quot;font-weight:bold;&quot;&gt;DECISION: &lt;/span&gt;Account Type&lt;br&gt;
 &lt;span&gt;Skipped this outcome because its conditions weren&apos;t met: Customer_Channel&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;Outcome conditions: &lt;/span&gt;&lt;br&gt;
-&lt;span&gt;\{!Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Customer - Channel&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;{! Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Customer - Channel&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;All conditions must be true (and)&lt;/span&gt;&lt;br&gt;
 &lt;br/&gt;
 &lt;span&gt;Skipped this outcome because its conditions weren&apos;t met: Customer_Direct&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;Outcome conditions: &lt;/span&gt;&lt;br&gt;
-&lt;span&gt;\{!Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Customer - Direct&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;{! Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Customer - Direct&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;All conditions must be true (and)&lt;/span&gt;&lt;br&gt;
 &lt;br/&gt;
 &lt;span&gt;Skipped this outcome because its conditions weren&apos;t met: Technology_Partner&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;Outcome conditions: &lt;/span&gt;&lt;br&gt;
-&lt;span&gt;\{!Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Technology Partner&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;{! Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Technology Partner&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;All conditions must be true (and)&lt;/span&gt;&lt;br&gt;
 &lt;br/&gt;
 &lt;span&gt;Outcome executed: Prospect&lt;/span&gt;&lt;br&gt;
 &lt;span&gt;Outcome conditions: &lt;/span&gt;&lt;br&gt;
-&lt;span&gt;\{!Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Prospect&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;{! Loop_through_Accounts.Type} ({!Loop_through_Accounts.Type}) EqualTo Prospect&lt;/span&gt;&lt;br&gt;
 
 &lt;span&gt;All conditions must be true (and)&lt;/span&gt;&lt;br&gt;
 &lt;/p&gt;
 &lt;p&gt;
 &lt;span style=&quot;font-weight:bold;&quot;&gt;(APEX): &lt;/span&gt;h_5237c583ee6c27161684690357c42d1e_PostPreLog&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Inputs:&lt;/span&gt;&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Outputs:&lt;/span&gt;&lt;br&gt;
 &lt;/p&gt;</text>
     </textTemplates>
     <variables>
