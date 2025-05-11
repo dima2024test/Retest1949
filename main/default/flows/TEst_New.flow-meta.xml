@@ -70,7 +70,6 @@
         <label>Test4</label>
         <locationX>314</locationX>
         <locationY>384</locationY>
-        <flowName>runtime_appointmentbooking__agntCancel</flowName>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </subflows>
 </Flow>
